@@ -1,0 +1,161 @@
+/*nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition:  0.32s ease-in-out;
+  }
+  nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: #121212;
+  }
+  nav.navbar a.navbar-brand {
+      width: 9%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 550;
+    color: #fffefe !important;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 0.75;
+  }
+  nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+  nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+      opacity: 1;
+  }
+  span.navbar-text {
+      display: flex;
+      align-items: center;
+  }*/
+
+  .nav{
+    display: flex;
+    justify-content: flex-start;
+    height: fit-content;
+    color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    color: white;
+    transition:  0.32s ease-in-out;
+}
+
+.logo{ 
+    
+    display: flex;
+    padding-top: 0.4rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.4rem;
+    height: auto;
+    width: 5cm;
+}
+
+.pages{
+    z-index: 2;
+    display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   gap: 3rem;
+   padding-top:1.5rem ;
+   padding-left: 17rem;
+   font-size: 21px;
+   font-family: 'Poppins';
+   color: white;
+
+}
+
+.pp{
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+}
+
+.sign{
+    padding-left: 5rem;
+    display: flex;
+    color: black;
+}
+.SignUp{
+    text-decoration: none;
+    color: white;
+    width: 4.5rem;
+}
+.SignIn{
+     
+    position: relative;
+    top:-0.8rem;
+    left: 1.5rem;
+    font-size: large;
+    text-align: center;
+    font-family: 'Poppins';  
+    height: 2.3rem;
+    width: 5.5rem;
+    padding: auto;
+    padding-top: 0.6rem;
+    border-style: solid;
+      background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(45deg, #6a5bcd, #ff7f50) border-box;
+    border: 5px solid transparent;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+.Sign{
+    font-size: large;
+    text-align: center;
+    font-family: 'Poppins';  
+    height: +2.5rem;
+    width: 6.5rem;
+  }
+  
+
+  .scrolled {
+    padding: 0px 0;
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+    height: 5.5rem;
+    top: 0;
+    z-index: 9999;
+    
+
+  }
+  .scrolled1{
+    position: relative;
+    top: -4.8rem;
+    left: 13.3rem;
+    color: white;
+  }
+  .scrolled2{
+    position: relative;
+    top: -4.8rem;
+    left: 9.5rem;
+    color: white;
+  }
+  .scrolled3{
+    position: relative;
+    top: -4.8rem;
+    left: 5.8rem;
+    color: white;
+  }
+
+   .scrolled4{
+    position: relative;
+    top: -4.8rem;
+    left: 2rem;
+    color: white;
+  }
+  .scrolled5{
+    position: relative;
+    top: -4.8rem;
+    left: -1.8rem;
+    color: white;
+  }
+
+  .scrolled6{
+
+    color: white;
+  }
